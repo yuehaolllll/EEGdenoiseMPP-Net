@@ -2,11 +2,9 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0+-red.svg)](https://pytorch.org/)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-
 Official PyTorch implementation of **MPP-Net**, a high-fidelity lightweight deep learning model for removing physiological artifacts (EOG, EMG, composite) from single-channel EEG signals.
 
-> 📄 **Paper**: *A High-Fidelity Lightweight Multi-Scale Phase-Preserving Network for Single-Channel EEG Artifact Removal* (under review)
+> 📄 **Paper**: *A High-Fidelity Lightweight Multi-Scale Phase-Preserving Network for Single-Channel EEG Artifact Removal* (manuscript in preparation)
 
 ---
 
