@@ -166,6 +166,32 @@ All convolutions use **symmetric padding** (zero-phase) to preserve temporal ali
 
 ---
 
+## 🖼️ Experimental Results Gallery
+
+### Model Architecture
+
+![MPP-Net Architecture](code/pic/model.png)
+
+### Benchmark Performance
+
+| Fig 3: SNR Robustness (1x3) | Fig 4: Waveform + PSD (3x2) |
+|:---:|:---:|
+| ![SNR](code/pic/fig3_snr_combined.png) | ![Waveform](code/pic/fig4_waveform_psd_combined.png) |
+
+### Efficiency & Phase Validation
+
+| Fig 5: Performance vs Complexity | Phase Fidelity (Cross-Correlation Lag) |
+|:---:|:---:|
+| ![Efficiency](code/pic/fig5_efficiency.png) | ![Phase](code/pic/selfdata_results/phase_validation_lag.png) |
+
+### Self-Collected Real-Artifact Denoising
+
+| Denoising Effect Gallery (4 types) | Three-Model Cross-Comparison |
+|:---:|:---:|
+| ![Gallery](code/pic/selfdata_results/denoising_gallery.png) | ![Cross](code/pic/selfdata_results/cross_summary_figure.png) |
+
+---
+
 ## 📝 Citation
 
 ```bibtex
